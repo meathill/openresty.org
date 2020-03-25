@@ -4,6 +4,11 @@
     @created       2018-11-14 01:32 GMT
 --->
 
+# Version 1.15.8.4 - 25 March 2020
+
+* [ngx_lua](https://github.com/openresty/lua-nginx-module#readme)
+    * bugfix: prevented request smuggling in the [ngx.location.capture](https://github.com/openresty/lua-nginx-module#ngxlocationcapture) API. _Thanks Thibault Charbonnier for the patch._
+
 # Version 1.15.8.3 - 20 March 2020
 
 * Applied the safe_map_uri_to_path patch to the 1.15.8 version of the [nginx](nginx.html) core.
